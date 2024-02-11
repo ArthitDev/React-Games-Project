@@ -1,0 +1,12 @@
+.css-tjr1j6 {
+    animation: blink 1.7s infinite;
+  }
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  

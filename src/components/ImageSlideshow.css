@@ -1,0 +1,24 @@
+@keyframes zoomInOut {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.css-av5p4a {
+  animation: zoomInOut 2s infinite !important;
+}
+
+/* หรือถ้าคุณต้องการให้เร็วขึ้น ให้ลองปรับเวลาให้น้อยลง */
+.css-wryr4e {
+  animation: zoomInOut 2s infinite !important;
+}
+.css-2hf1rw {
+  animation: zoomInOut 2s infinite !important;
+}
+.css-hbpzse {
+  animation: zoomInOut 2s infinite !important;
+}

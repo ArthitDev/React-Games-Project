@@ -1,0 +1,57 @@
+/* กำหนดลักษณะเริ่มต้นของลิงก์ */
+.css-1ccmlph {
+  -webkit-text-decoration: none !important;
+  text-decoration: none !important;
+  position: relative !important; /* เพื่อกำหนดพื้นที่สำหรับเอฟเฟกต์ขีดเส้นใต้ */
+}
+
+/* กำหนดเอฟเฟกต์เมื่อ hover */
+.css-1ccmlph:hover::after {
+  content: ""; /* สร้างส่วนผู้ใช้กำหนดเนื้อหาแบบเท็จจริง */
+  position: absolute;
+  left: 0; /* ตำแหน่งเริ่มต้นที่ซ้ายสุด */
+  bottom: -2px; /* ระยะห่างจากขอบล่างของลิงก์ */
+  width: 100%; /* ความกว้างเท่ากับความกว้างของลิงก์ */
+  height: 1px; /* ความสูงของเส้นขีดใต้ */
+  background-color: red; /* สีของเส้นขีดใต้ */
+  animation: underlineAnimation 0.3s linear forwards; /* เอฟเฟกต์อนิเมชั่น */
+}
+
+/* กำหนดอนิเมชั่นของเส้นขีดใต้ */
+@keyframes underlineAnimation {
+  from {
+    width: 0; /* เริ่มต้นที่ความกว้าง 0 */
+    left: 50%; /* เริ่มต้นที่ตรงกลาง */
+  }
+  to {
+    width: 100%; /* สิ้นสุดที่ความกว้าง 100% */
+    left: 0; /* สิ้นสุดที่ตำแหน่งซ้ายสุด */
+  }
+}
+
+.css-2umh3y {
+  -webkit-text-decoration: none !important;
+  text-decoration: none !important;
+  position: relative !important;
+}
+
+.css-2umh3y:hover::after {
+  content: ""; /* สร้างส่วนผู้ใช้กำหนดเนื้อหาแบบเท็จจริง */
+  position: absolute;
+  left: 0; /* ตำแหน่งเริ่มต้นที่ซ้ายสุด */
+  bottom: -2px; /* ระยะห่างจากขอบล่างของลิงก์ */
+  width: 100%; /* ความกว้างเท่ากับความกว้างของลิงก์ */
+  height: 1px; /* ความสูงของเส้นขีดใต้ */
+  background-color: red; /* สีของเส้นขีดใต้ */
+  animation: underlineAnimation 0.3s linear forwards; /* เอฟเฟกต์อนิเมชั่น */
+}
+
+.css-onkibi {
+  animation: spin 2s linear infinite;
+}
+
+/* กำหนด keyframes ของ animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
