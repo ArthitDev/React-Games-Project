@@ -11,9 +11,15 @@
 ### <ins> กดเข้าไปแต่ละเกม </ins> 
 <img src="Images/Click_Games.png" alt="click_Games" width="1000" height="500" align="center"/>
 
-### <ins> กดเข้าไปแต่ละเกม </ins> 
-<img src="Images/Click_Games.png" alt="click_Games" width="1000" height="500" align="center"/>
+### <ins> หน้าสมัครสมาชิก </ins> 
+<img src="Images/Register.png" alt="click_Games" width="1000" height="500" align="center"/>
 
 ### <ins> หน้าเข้าสู่ระบบ </ins> 
-<img src="Images/Click_Games.png" alt="click_Games" width="1000" height="500" align="center"/>
+<img src="Images/Login.png" alt="click_Games" width="1000" height="500" align="center"/>
+
+### <ins> จัดการเกม : เพิ่มเกม </ins> 
+<img src="Images/Add_Games.png" alt="click_Games" width="1000" height="500" align="center"/>
+
+### <ins> จัดการเกม : แก้ไขเกม </ins> 
+<img src="Images/Edit_Games.png" alt="click_Games" width="1000" height="500" align="center"/>
 
